@@ -1,0 +1,220 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+/* Redux css */
+
+/* .DropDown{
+  padding: 10px;
+} */
+
+.mainheader{
+  text-align: center;
+  color: rgb(255,255,255 );
+}
+
+.mainHeaderfile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.DropDown1{
+  width: 350px;
+  padding: 8px;
+ border: none;
+  border-bottom: 1px solid black;
+  background-color: #cfe8ee;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 12px;
+}
+
+
+
+.DropDown2{
+  width: 270px;
+  padding: 8px;
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: #cfe8ee;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.MainDiv{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.SubDiv1{
+  height: 180px;
+  width: 800px;
+  background-color: #cfe8ee;
+  padding: auto;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  opacity: 0.8;
+  color: black;
+}
+.SubDiv1 span{
+  margin:0px 10px 0px -10px;
+}
+
+.SubDiv2{
+  height: 180px;
+  width: 800px;
+  background-color: #cfe8ee;
+  padding: auto;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.SubDiv2 span{
+margin:0px 10px 0px -10px;
+}
+body{
+  background-image: url("https://images2.alphacoders.com/247/247890.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .mainheader{
+    background-color: #cfe8ee;
+    color: rgb(0,0,0 );
+   
+  }
+  .DropDown1{
+    width: 40%;
+    font-size: 10px;
+  }
+   .countrydropdown{
+    width: 100%;
+  }
+  .DropDown2{
+    width: 40%;
+  }
+
+ 
+  .SubDiv1{
+    height: 150px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+  }
+  .SubDiv2{
+    height: 150px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    opacity: 1;
+  }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .DropDown1{
+    width: 70%;
+  }
+  .countrydropdown{
+    width: 100%;
+  }
+  .DropDown2{
+    width: 70%;
+  }
+
+  
+  .SubDiv1{
+    height: 215px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  .SubDiv2{
+    height: 215px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px)and(max-width:800) {
+  
+  .DropDown1{
+    width: 70%;
+  }
+  .DropDown2{
+    width: 70%;
+  }
+
+  .SubDiv1{
+    height: 150px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .SubDiv2{
+    height: 150px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
